@@ -696,145 +696,29 @@ button:hover {
 }
 /*--------*/
 
-@media screen and (max-width: 540px) {
+.made-with-section {
+    align-items: center;
+    align-self: stretch;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    height: 76px;
+    padding: 0px 195px 2px 195px;
+    text-align: center;
 
-    .about_section_header {
-        gap: 20px;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    a {
-        font-size: 18px;
-    }
-
-    .authorization_section {
-        gap: 35px;
-    }
-
-    .about_section_header__title {
-        padding: 0;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 35px;
-    }
-
-    .section-about__sub-headline {
-        text-align: center;
-    }
-
-    .section-about {
-        width: 100%;
-        align-items: center;
-    }
-
-    .section-about__headline {
-        font-size: 54px;
-        text-align: center;
-    }
-
-    .watch-course-section {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .watch-course-section__description {
-        width: 300px;
-    }
-
-    .men-image {
-        width: 210px;
-        height: 210px;
-
-    }
-
-    .men-image__image {
-        width: 200px;
-        height: 200px;
-    }
-
-    .men-image__percent {
-        width: 130px;
-        height: 130px;
-    }
-
-    .men-image__singles {
-        width: 70px;
-        height: 30px;
-    }
-
-    .section {
-        padding: 100px 10px;
-    }
-
-    .section-header__header {
-        text-align: center;
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .course-carousel {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .section__course-carousel {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .review-item {
-        width: 320px;
-        flex-direction: row;
-        margin: auto;
-    }
-
-    .training-course-item__description {
-        font-size: 12px;
-    }
-
-    .feedback-section__form-email {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    #email {
-        width: 325px;
-        border-radius: 5px;
-    }
-
-    .subscribe-button {
-        border-radius: 5px;
-    }
-
-    footer {
-        flex-direction: column;
-        gap: 30px;
-        padding-bottom: 50px;
-        align-items: center;
-    }
-
-    .footer__section {
-        align-items: center;
-    }
-
-    .footer__resources__list {
-        display: none;
-        position: relative;
-        background-color: #252B42;
-        padding: 10px;
-        list-style: none;
-        border: none;
-    }
-
-    .footer__section:hover .footer__resources__list {
-        display: flex;
-        align-items: center;
-        text-align: center;
-        gap: 15px;
-    }
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
 }
+
+.made-with-section__text {
+    padding: 25px 0;
+}
+
+
 
 
 
